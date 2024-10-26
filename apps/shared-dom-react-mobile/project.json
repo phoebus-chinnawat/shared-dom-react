@@ -1,0 +1,9 @@
+{
+  "name": "shared-dom-react-mobile",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/shared-dom-react-mobile/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project shared-dom-react-mobile --web",
+  "targets": {}
+}
