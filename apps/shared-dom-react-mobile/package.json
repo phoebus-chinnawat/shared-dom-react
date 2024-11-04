@@ -5,13 +5,23 @@
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
+    "expo": "^52.0.0-canary-20241021-c4b5a93",
+    "expo-dom": "^27.0.2",
     "metro-config": "*",
-    "react-native": "*",
-    "expo": "*",
-    "react-native-svg": "*",
-    "react-native-web": "*"
+    "react": "18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native": "0.76.0-rc.6",
+    "react-native-svg": "15.8.0-rc.1",
+    "react-native-web": "^0.19.13",
+    "react-native-webview": "13.12.2"
   },
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/shared-dom-react-mobile"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/shared-dom-react-mobile",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "start": "EXPO_UNSTABLE_ATLAS=1 expo start"
+  },
+  "devDependencies": {
+    "expo-atlas": "^0.3.11"
   }
 }

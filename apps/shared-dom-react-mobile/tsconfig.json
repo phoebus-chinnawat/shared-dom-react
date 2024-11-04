@@ -8,16 +8,13 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,
-    "declaration": true
+    "declaration": true,
+    "paths": {
+      "@shared-dom-react/shared-dom": ["libs/shared-dom/src/index.ts"]
+    }
   },
   "files": [],
   "include": [],
   "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
   ]
 }
